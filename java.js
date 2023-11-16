@@ -34,7 +34,7 @@ function typeWriter(text, i, cb) {
 	} else if (i === text.length+1) {
 		setTimeout( function () {
 			delWriter(text, i, cb)
-		},100e);
+		},100);
 	}
 };
 
